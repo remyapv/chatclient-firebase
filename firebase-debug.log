@@ -1,0 +1,34 @@
+[debug] [2018-09-29T06:00:49.604Z] ----------------------------------------------------------------------
+[debug] [2018-09-29T06:00:49.606Z] Command:       /usr/local/Cellar/node/10.10.0/bin/node /usr/local/bin/firebase serve
+[debug] [2018-09-29T06:00:49.606Z] CLI Version:   4.2.1
+[debug] [2018-09-29T06:00:49.606Z] Platform:      darwin
+[debug] [2018-09-29T06:00:49.606Z] Node Version:  v10.10.0
+[debug] [2018-09-29T06:00:49.607Z] Time:          Sat Sep 29 2018 11:30:49 GMT+0530 (India Standard Time)
+[debug] [2018-09-29T06:00:49.607Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-09-29T06:00:49.617Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-09-29T06:00:49.618Z] > authorizing via signed-in user
+[debug] [2018-09-29T06:00:49.619Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/chatclient-firebase  
+ 
+[debug] [2018-09-29T06:00:52.135Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-29T06:00:52.136Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/chatclient-firebase  
+ 
+[debug] [2018-09-29T06:00:53.782Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from '/Applications/MAMP/htdocs/chatclient-firebase'...
+[info] 
+[info] i  functions: Preparing to emulate functions.
+[debug] [2018-09-29T06:00:54.266Z] Fetching environment
+[debug] [2018-09-29T06:00:54.269Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/525320089190:getServerAppConfig  
+ 
+[debug] [2018-09-29T06:00:54.269Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/525320089190/clients/_:getWebAppConfig  
+ 
+[debug] [2018-09-29T06:00:54.799Z] <<< HTTP RESPONSE 200
+[debug] [2018-09-29T06:00:54.800Z] Starting @google-cloud/functions-emulator
+[debug] [2018-09-29T06:00:54.875Z] <<< HTTP RESPONSE 200
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[warn] ⚠  hosting: Port 5000 is not available. Trying another port...
+[info] i  hosting[chatclient-firebase]: Serving hosting files from: ./
+[info] ✔  hosting[chatclient-firebase]: Local server: http://localhost:5010
+[debug] [2018-09-29T06:00:55.860Z] Parsing function triggers
+[info] i  functions: No HTTPS functions found. Use firebase functions:shell if you would like to emulate other types of functions.
